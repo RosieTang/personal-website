@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-100">
       <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="text-lg font-semibold tracking-tight text-gray-900">
-          John Doe
+          Rosie Tang
         </a>
 
         <ul className="hidden md:flex gap-8">

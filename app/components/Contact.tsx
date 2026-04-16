@@ -8,20 +8,20 @@ interface ContactLink {
 const contactLinks: ContactLink[] = [
   {
     label: "Email",
-    href: "mailto:john@example.com",
-    display: "john@example.com",
+    href: "mailto:yunxitang@outlook.com",
+    display: "yunxitang@outlook.com",
     icon: "✉",
   },
   {
     label: "GitHub",
-    href: "https://github.com/username",
-    display: "github.com/username",
+    href: "https://github.com/rosietang",
+    display: "github.com/RosieTang",
     icon: "⌥",
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/johndoe",
-    display: "linkedin.com/in/johndoe",
+    href: "https://www.linkedin.com/in/yunxi-tang-rosie/",
+    display: "linkedin.com/in/yunxi-tang-rosie/",
     icon: "in",
   },
 ];

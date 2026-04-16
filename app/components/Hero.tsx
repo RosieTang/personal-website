@@ -23,7 +23,7 @@ export default function Hero() {
             Hello, I&apos;m
           </p>
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 leading-tight">
-            John Doe
+            Rosie Tang
           </h1>
           <p className="text-xl text-gray-500 max-w-xl leading-relaxed">
             Software engineer · Builder · Problem solver

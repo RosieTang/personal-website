@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe - Software Engineer",
-  description: "Personal website of John Doe — software engineer and full-stack developer.",
+  title: "GingerCat - Rosie Tang's Personal Website",
+  description: "Personal website of Rosie Tang — software engineer and full-stack developer.",
 };
 
 export default function RootLayout({

@@ -2,27 +2,27 @@ import { Experience } from "../types";
 
 export const experiences: Experience[] = [
   {
-    role: "Software Engineer",
-    company: "Company Name",
-    period: "2023 – Present",
+    role: "Senior Software Engineer",
+    company: "Tech Corp",
+    period: "2022 – Present",
     description:
-      "Describe what you worked on, your key contributions, and impact. Replace with your actual experience.",
-    tags: ["React", "TypeScript", "AWS"],
+      "Lead development of microservices architecture serving 1M+ users. Implemented CI/CD pipelines reducing deployment time by 60%. Mentored junior developers and conducted code reviews.",
+    tags: ["React", "Node.js", "AWS", "Docker", "TypeScript"],
   },
   {
-    role: "Frontend Developer",
-    company: "Another Company",
-    period: "2021 – 2023",
+    role: "Full Stack Developer",
+    company: "StartupXYZ",
+    period: "2020 – 2022",
     description:
-      "Describe what you worked on, your key contributions, and impact. Replace with your actual experience.",
-    tags: ["Vue.js", "Node.js", "GraphQL"],
+      "Built and maintained multiple client-facing applications. Collaborated with design team to implement pixel-perfect UIs. Optimized database queries improving performance by 40%.",
+    tags: ["Vue.js", "Python", "PostgreSQL", "GraphQL"],
   },
   {
     role: "Junior Developer",
-    company: "First Company",
-    period: "2019 – 2021",
+    company: "Web Agency",
+    period: "2018 – 2020",
     description:
-      "Describe what you worked on, your key contributions, and impact. Replace with your actual experience.",
-    tags: ["HTML", "CSS", "JavaScript"],
+      "Developed responsive websites and web applications for various clients. Worked with modern JavaScript frameworks and learned best practices for clean, maintainable code.",
+    tags: ["JavaScript", "React", "HTML", "CSS", "PHP"],
   },
 ];

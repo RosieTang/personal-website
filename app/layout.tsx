@@ -1,21 +1,20 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
+const geistSans = Geist({
   variable: "--font-geist-sans",
-  weight: "100 900",
+  subsets: ["latin"],
 });
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
+
+const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  weight: "100 900",
+  subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Rosie Tang", // TODO: Update if needed
-  description: "Personal website of Rosie Tang — software engineer.", // TODO: Update
+  title: "John Doe - Software Engineer",
+  description: "Personal website of John Doe — software engineer and full-stack developer.",
 };
 
 export default function RootLayout({
@@ -24,12 +23,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}
-      >
-        {children}
-      </body>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+    >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900 scroll-smooth`}>{children}</body>
     </html>
   );
 }

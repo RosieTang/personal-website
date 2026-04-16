@@ -9,9 +9,7 @@ export default function Experience() {
       <div className="flex flex-col gap-0">
         {experiences.map((exp, index) => (
           <div key={index} className="relative pl-8 pb-12 last:pb-0">
-            {/* Timeline line */}
             <div className="absolute left-0 top-2 bottom-0 w-px bg-gray-200 last:hidden" />
-            {/* Timeline dot */}
             <div className="absolute left-[-4px] top-2 w-2 h-2 rounded-full bg-gray-400" />
 
             <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-3">

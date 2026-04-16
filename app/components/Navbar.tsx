@@ -17,10 +17,9 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-gray-100">
       <nav className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="text-lg font-semibold tracking-tight text-gray-900">
-          Rosie Tang {/* TODO: Update your name if needed */}
+          John Doe
         </a>
 
-        {/* Desktop nav */}
         <ul className="hidden md:flex gap-8">
           {navLinks.map((link) => (
             <li key={link.href}>
@@ -34,7 +33,6 @@ export default function Navbar() {
           ))}
         </ul>
 
-        {/* Mobile hamburger */}
         <button
           className="md:hidden text-gray-500 hover:text-gray-900"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -50,7 +48,6 @@ export default function Navbar() {
         </button>
       </nav>
 
-      {/* Mobile menu */}
       {menuOpen && (
         <ul className="md:hidden px-6 pb-4 flex flex-col gap-4 bg-white border-b border-gray-100">
           {navLinks.map((link) => (

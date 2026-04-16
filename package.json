@@ -1,37 +1,26 @@
 {
-  "name": "rosie_tang_website",
+  "name": "personal-website",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint"
   },
   "dependencies": {
-    "@tailwindcss/postcss": "^4.2.2",
-    "aws-amplify": "^6.8.2",
-    "fast-xml-parser": "^5.4.1",
-    "next": "^16.2.3",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
-    "strnum": "^2.2.3"
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@aws-amplify/backend": "^1.7.0",
-    "@aws-amplify/backend-cli": "^1.4.2",
-    "@types/node": "^25.6.0",
-    "@types/react": "^19.2.14",
-    "@types/react-dom": "^19.2.3",
-    "aws-cdk": "^2.167.0",
-    "aws-cdk-lib": "^2.167.0",
-    "constructs": "^10.4.2",
-    "esbuild": "^0.28.0",
-    "eslint": "^10.2.0",
-    "eslint-config-next": "^16.2.3",
-    "postcss": "^8",
-    "tailwindcss": "^4.2.2",
-    "tsx": "^4.19.2",
-    "typescript": "^6.0.2"
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }

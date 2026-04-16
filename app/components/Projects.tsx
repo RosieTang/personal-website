@@ -17,7 +17,6 @@ export default function Projects() {
               {project.description}
             </p>
 
-            {/* Tags */}
             <div className="flex flex-wrap gap-2">
               {project.tags.map((tag) => (
                 <span
@@ -29,7 +28,6 @@ export default function Projects() {
               ))}
             </div>
 
-            {/* Links */}
             <div className="flex gap-4 mt-1">
               {project.github && (
                 <a

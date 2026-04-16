@@ -11,19 +11,10 @@ export default function Home() {
     <>
       <Navbar />
       <main>
-        {/* 1. Profile photo + self introduction */}
         <Hero />
-
-        {/* 2. Projects showcase */}
         <Projects />
-
-        {/* 3. Skills */}
         <Skills />
-
-        {/* 4. Experience timeline */}
         <Experience />
-
-        {/* 5. Contact & links */}
         <Contact />
       </main>
       <Footer />

@@ -13,3 +13,8 @@ export interface Experience {
   description: string;
   tags?: string[];
 }
+
+export interface SkillGroup {
+  category: string;
+  items: string[];
+}

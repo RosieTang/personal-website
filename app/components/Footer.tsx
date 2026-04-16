@@ -5,11 +5,11 @@ export default function Footer() {
     <footer className="border-t border-gray-100 py-8">
       <div className="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4">
         <p className="text-sm text-gray-400">
-          © {year} Rosie Tang. All rights reserved.
+          © {year} John Doe. All rights reserved.
         </p>
         <div className="flex gap-6">
           <a
-            href="https://github.com/RosieTang"
+            href="https://github.com/username"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-400 hover:text-gray-700 transition-colors"
@@ -17,7 +17,7 @@ export default function Footer() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/" // TODO: Replace
+            href="https://linkedin.com/in/johndoe"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-400 hover:text-gray-700 transition-colors"

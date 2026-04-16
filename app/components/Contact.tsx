@@ -1,5 +1,3 @@
-// TODO: Fill in your real email, LinkedIn URL, and any other links you want to include
-
 interface ContactLink {
   label: string;
   href: string;
@@ -10,29 +8,22 @@ interface ContactLink {
 const contactLinks: ContactLink[] = [
   {
     label: "Email",
-    href: "mailto:your@email.com", // TODO: Replace with your email
-    display: "your@email.com",
+    href: "mailto:john@example.com",
+    display: "john@example.com",
     icon: "✉",
   },
   {
     label: "GitHub",
-    href: "https://github.com/RosieTang",
-    display: "github.com/RosieTang",
+    href: "https://github.com/username",
+    display: "github.com/username",
     icon: "⌥",
   },
   {
     label: "LinkedIn",
-    href: "https://linkedin.com/in/your-profile", // TODO: Replace with your LinkedIn URL
-    display: "linkedin.com/in/your-profile",
+    href: "https://linkedin.com/in/johndoe",
+    display: "linkedin.com/in/johndoe",
     icon: "in",
   },
-  // TODO: Add more links — e.g. Twitter/X, personal blog, resume PDF, etc.
-  // {
-  //   label: "Resume",
-  //   href: "/resume.pdf",
-  //   display: "Download résumé",
-  //   icon: "↓",
-  // },
 ];
 
 export default function Contact() {
@@ -43,17 +34,14 @@ export default function Contact() {
         <p className="text-gray-400 mb-12">Let&apos;s connect</p>
 
         <div className="grid sm:grid-cols-2 gap-12">
-          {/* Message */}
           <div>
             <p className="text-gray-500 leading-relaxed">
-              {/* TODO: Personalize this message */}
               I&apos;m always open to new opportunities, collaborations, or just a good
               conversation. Feel free to reach out through any of the links below —
               I&apos;ll get back to you as soon as I can.
             </p>
           </div>
 
-          {/* Links */}
           <div className="flex flex-col gap-4">
             {contactLinks.map((link) => (
               <a

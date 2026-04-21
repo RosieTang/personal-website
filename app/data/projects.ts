@@ -2,26 +2,27 @@ import { Project } from "../types";
 
 export const projects: Project[] = [
   {
+    title: "GitHub Keyword Alert System",
+    description:
+    "A Realtime GitHub repository issues keyword monitoring and notification system.",
+    tags: ["React.js", "Express", "PostgreSQL", "Socket.IO"],
+    link: "https://gingercat.dev",
+    github: "https://github.com/rosietang/Keyword-Alert-System",
+  },
+  {
     title: "Personal Website",
     description:
       "A modern, responsive personal website built with Next.js, TypeScript, and Tailwind CSS. Features a clean design with sections for projects, skills, experience, and contact information.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "AWS Amplify"],
+    link: "https://gingercat.dev",
     github: "https://github.com/rosietang/personal-website",
   },
   {
-    title: "abc",
+    title: "Fitness Tracker App",
     description:
-      "TBD",
-    tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    link: "https://example-shop.com",
-    github: "https://github.com/rosietang/ecommerce",
-  },
-  {
-    title: "EFG",
-    description:
-      "TBD",
-    tags: ["Vue.js", "Firebase", "Tailwind CSS", "JavaScript"],
-    link: "https://example-dashboard.com",
-    github: "https://github.com/rosietang/taskapp",
+      "A fitness habit tracking web app",
+    tags: ["React.js", "MySQL", "Express.js", "CSS"],
+    link: "https://gingercat.dev",
+    github: "https://github.com/rosietang/Fitness-Tracker",
   },
 ];

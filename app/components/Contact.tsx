@@ -8,8 +8,8 @@ interface ContactLink {
 const contactLinks: ContactLink[] = [
   {
     label: "Email",
-    href: "mailto:yunxitang@outlook.com",
-    display: "yunxitang@outlook.com",
+    href: "", //"mailto:yunxitang@outlook.com",
+    display: "",//"yunxitang@outlook.com",
     icon: "✉",
   },
   {
